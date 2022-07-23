@@ -1,0 +1,9 @@
+.btn{
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}

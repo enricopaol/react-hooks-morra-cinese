@@ -1,0 +1,21 @@
+.layout-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+    background-color: #344e86;
+}
+
+
+
+.winner-text{
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 2.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.winner-text.name{
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+}

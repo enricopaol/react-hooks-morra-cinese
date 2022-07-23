@@ -1,0 +1,46 @@
+.layout-wrapper{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #344e86;
+}
+
+.layout-wrapper h1{
+    margin: 0;
+    font-family: 'Luckiest Guy', cursive;
+    color: lightgray;
+    font-size: 28px;
+    padding: 4rem 0;
+}
+
+.layout-wrapper .btn-welcome{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 2rem;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .layout-wrapper h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .layout-wrapper h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 450px) {
+    .layout-wrapper h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .layout-wrapper h1{
+        font-size: 2rem;
+    }
+}

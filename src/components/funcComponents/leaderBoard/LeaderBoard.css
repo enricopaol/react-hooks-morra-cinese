@@ -1,0 +1,50 @@
+ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.leaderBoardsTitleStyle{
+    color: white;
+    font-family: 'Poppins';
+
+    padding: 2rem 0;
+    margin: 0;
+}
+
+.leaderBoardsStyle{
+    width: 60%;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+.listStyle{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+
+.listStyle span{
+    font-family: 'Poppins';
+}
+
+@media screen and (min-width: 1024px) {
+    .leaderBoardsStyle{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 400px) {
+    .leaderBoardsStyle{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .leaderBoardsStyle{
+        overflow-y: scroll;
+        height: 150px;
+    }
+}

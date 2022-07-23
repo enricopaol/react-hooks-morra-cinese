@@ -1,0 +1,16 @@
+.insert-name{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+@media all and (max-width: 524px) {
+    .insert-name {
+        font-size: 1rem;
+        padding: 8px 23px;
+    }
+}
